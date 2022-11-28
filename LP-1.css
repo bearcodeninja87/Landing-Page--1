@@ -33,6 +33,7 @@ section {
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    height: 300px;
 }
 
 section h2 {
@@ -78,4 +79,77 @@ section h2 {
     border: 3px solid #3882F6;
     border-radius: 10px;
 
+}
+
+.main-middle {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+blockquote {
+    width: 75%;
+    /* font-size: x-large; */
+    font-size: 36px;
+    font: light italic;
+    color: #1F2937
+
+    
+}
+
+blockquote p {
+    
+    font: bolder;
+    font-size: 60px;
+    
+}
+
+.main-bottom {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.bottom-section {
+    background-color: #3882F6;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.bottom-section button {
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 110px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p {
+   font-size: large;
+   font-weight: 600;
+   
 }
